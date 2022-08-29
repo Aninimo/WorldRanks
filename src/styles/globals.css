@@ -1,0 +1,48 @@
+[data-theme="dark"] {
+  --text-color: #f0f0f0;
+  --text-color-secondary: #b3c5cd;
+
+  --background-color: #252329;
+  --background-color-dark: #3c393f;
+  --background-color-light: #120f13;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  padding: 0;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: var(--background-color);
+  color: var(--text-color);
+  padding: 1.5rem;
+}
+
+img{
+  width: 70px
+}
+
+
+ul{
+  list-style: none;
+}
+
+a{
+  color: var(--text-color);
+}
+
+strong{
+  margin-bottom: 1rem;
+}
+
+input{
+  padding: .5rem 2.5rem;
+  border-radius: .5rem;
+  margin-left: 3.5rem;
+  margin-top: 2rem;
+}
